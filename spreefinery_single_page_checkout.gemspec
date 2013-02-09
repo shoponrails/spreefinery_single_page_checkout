@@ -2,9 +2,9 @@
 Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.name = 'spreefinery_single_page_checkout'
-  s.version = '1.3.2.beta'
-  s.summary = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.version = '1.3.2'
+  s.summary = 'Single Page Checkout for Spreefinery Engine'
+  s.description = ' Single Page Checkout for Spreefinery Engine'
   s.required_ruby_version = '>= 1.9.3'
 
   # s.author    = 'You'
@@ -18,8 +18,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 1.3.2.beta'
-  s.add_dependency 'refinerycms-core', '>= 2.0.9'
+  s.add_dependency 'spreefinery_core'
 
   s.add_development_dependency 'capybara', '~> 1.1.2'
   s.add_development_dependency 'coffee-rails'
