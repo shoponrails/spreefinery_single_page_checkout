@@ -12,6 +12,7 @@ Spree::CheckoutController.class_eval do
 
      if @order.state.eql?('cart') and @order.email.present?
        @order.next
+       before_address
      end
 
      if ::Refinery::Setting.find_or_set(:single_page_checkout, true)
