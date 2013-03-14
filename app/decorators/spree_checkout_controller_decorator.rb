@@ -1,7 +1,5 @@
 Spree::CheckoutController.class_eval do
 
-  skip_before_filter :check_registration, :only => [:sign_up]
-
   layout :compute_layout
 
   def compute_layout
