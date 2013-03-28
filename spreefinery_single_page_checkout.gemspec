@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
 
   # s.author    = 'You'
   # s.email     = 'you@example.com'
-  s.authors = ["Alexander Negoda, Zee Yang"]
-  s.email = ["alexander.negoda@gmail.com, zee.yang@gmail.com"]
+  s.authors = ["Alexander Negoda"]
+  s.email = ["alexander.negoda@gmail.com"]
   s.homepage = 'https://github.com/shoponrails/spreefinery_single_page_checkout'
 
   s.files = `git ls-files`.split("\n")
